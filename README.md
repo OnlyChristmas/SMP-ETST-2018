@@ -68,3 +68,9 @@ SMP_ETST 2018 christmas源码
 - 程序运行需要大量的内存空间（？>32GB）
 - THULAC不支持大文件的切词，我们将A数据集文件切成4份分别切词。
 - 由于THULAC分词软件本身未知bug，可能`core dump`，自行下载[C++ THULAC](https://github.com/thunlp/THULAC)编译,可以解决。
+
+
+
+
+#### License
+[BSD]() © [christmas](https://github.com/OnlyChristmas)
