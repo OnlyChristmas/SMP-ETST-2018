@@ -57,6 +57,7 @@ SMP_ETST 2018 christmas源码
 - 将数据文件"A数据集.txt"和"B数据集"的UTF-8格式文件放在主目录final_corpus文件夹下。
 - 自行下载[C++ THULAC](https://github.com/thunlp/THULAC)编译, 文件夹命名为“THULAC”，放在项目根目录下。
 - 下载[THULAC训练好的模型](http://thulac.thunlp.org/message_v1_1), 命名为“models”放在根目录下。
+- 下载[cppjieba-master](https://github.com/yanyiwu/cppjieba)并编译，文件夹命名为“cppjieba-master”, 放在根目录下。
 - 顺次运行 T1_part.sh, T2_part.sh
 - 最终结果为final_output/exp1/result.csv  这里的exp1是本次实验的输出文件夹
 
