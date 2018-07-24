@@ -73,4 +73,4 @@ SMP_ETST 2018 christmas源码
 
 
 #### License
-[BSD]() © [christmas](https://github.com/OnlyChristmas)
+[BSD](https://github.com/OnlyChristmas/SMP-ETST-2018/blob/master/LICENSE) © [christmas](https://github.com/OnlyChristmas)
