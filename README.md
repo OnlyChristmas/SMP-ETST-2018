@@ -1,6 +1,5 @@
 
 SMP_ETST 2018 christmas源码
-
 时间：2018年7月1日
 
 ---
@@ -8,7 +7,7 @@ SMP_ETST 2018 christmas源码
 #### 算法简介
 本方法的核心算法WFTS(Weighted F-measure-based method for text sourcing)为基于TF-IDF的句子相似度的度量。我们提出了一种简便、快速的句子相似度的计算方法。通过计算待查句子词语和源句子词语基于TF-IDF加权的的改良版的查准率和查全率，最终计算出由TF-IDF加权的F1-score得分，为两个句子相似度的度量方法。F1-score得分能够比较全面的衡量句子间词语的匹配程度，而TF-IDF可以更好地建模词语的重要程度。为了加快搜索速度，我们采用了倒排索引技术进行预选，通过词语迅速对源数据集的的句子进行检索。最后，我们结合jieba分词和THULAC分词的结果做了模型融合。
 
-
+[算法的详细介绍在这里](https://onlychristmas.github.io/2018/07/09/%E3%80%90NLP%E6%AF%94%E8%B5%9B%E3%80%91%E4%B8%AD%E5%9B%BD%E4%B8%AD%E6%96%87%E4%BF%A1%E6%81%AF%E5%AD%A6%E4%BC%9A%E6%96%87%E6%9C%AC%E6%BA%AF%E6%BA%90%E6%8A%80%E6%9C%AF%E8%AF%84%E6%B5%8B%EF%BC%88SMP-ETST%EF%BC%89Ranking-First/#more)
 
 
 #### 代码功能
